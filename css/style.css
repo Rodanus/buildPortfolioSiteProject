@@ -26,7 +26,7 @@ body {
 /*** header styles ***/
 header {
 	background-color: #02b3e4;
-	height: 65px;	
+	height: 65px;
 }
 
 /*** make sure that the container and flex container take the full height of the header element ***/
@@ -66,4 +66,21 @@ header {
 	font-size: 0.7rem;
 	text-align: right;
 	margin-top: 2px;
+}
+
+/*** Make sure that images won't overflow ***/
+img {
+	max-width: 100%;
+}
+
+/*** Add border before and after the first section ***/
+header, #background {
+	border-bottom: 2px solid black;
+}
+
+/*** add a picture as a background to the first section and set size to cover, also specify the height***/
+#background {
+	background: url(../images/bk.jpg) no-repeat;
+	background-size: cover;
+	height: 200px;
 }
