@@ -1,0 +1,18 @@
+/* Make sure that the page will take the full width */
+html, body, header, main, footer {
+	width: 100%;
+}
+
+/*Make sure that the contents width won't be more than the specified width */
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	/* For debugging purposes */
+	outline: 1px solid skyblue !important; 
+}
+
+/*Change the font*/
+body {
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
