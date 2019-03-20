@@ -3,16 +3,52 @@ html, body, header, main, footer {
 	width: 100%;
 }
 
-/*Make sure that the contents width won't be more than the specified width */
+/*** Make sure that the contents width won't be more than the specified width byt setting the box-sizing: border-box; ***/
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+
 	/* For debugging purposes */
-	outline: 1px solid skyblue !important; 
+	/*outline: 1px solid skyblue !important; */
 }
 
-/*Change the font*/
+/*** Set the root font-size for responsive font using rem ***/
+html {
+	font-size: 17px;
+}
+
+/*** Change the font of teh page ***/
 body {
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+/*** header styles ***/
+header {
+	display: flex;
+	justify-content: space-between;
+	background-color: #02b3e4;
+	height: 65px;
+	align-items: center;
+}
+
+/*** Logo styles ***/
+#logo {
+	font-family: 'Pacifico', cursive;
+	font-size: 2.5rem;
+	text-transform: uppercase;
+}
+
+/*** remove the margins and make the text bigger for both the name and "front-end ninja" ***/
+#name, #fe-ninja {
+	margin: 0;
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+
+/*** set the font size to be smaller than the name + add margin top ***/
+#fe-ninja {
+	font-size: 0.7rem;
+	text-align: right;
+	margin-top: 2px;
 }
