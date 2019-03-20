@@ -10,7 +10,7 @@ html, body, header, main, footer {
 	box-sizing: border-box;
 
 	/* For debugging purposes */
-	/*outline: 1px solid skyblue !important; */
+	/*outline: 1px solid black !important; */
 }
 
 /*** Set the root font-size for responsive font using rem ***/
@@ -25,10 +25,25 @@ body {
 
 /*** header styles ***/
 header {
+	background-color: #02b3e4;
+	height: 65px;	
+}
+
+/*** make sure that the container and flex container take the full height of the header element ***/
+.container, .header-flex-con {
+	height: 100%;
+}
+
+/*** giving the container a width that is less than 100% to make sure that the content won't hit the edges of the screen ***/
+.container {
+	width: 95%;
+	margin: 0 auto;
+}
+
+/*** flex container ***/
+.header-flex-con {
 	display: flex;
 	justify-content: space-between;
-	background-color: #02b3e4;
-	height: 65px;
 	align-items: center;
 }
 
@@ -43,7 +58,7 @@ header {
 #name, #fe-ninja {
 	margin: 0;
 	font-size: 1rem;
-	text-transform: uppercase;
+	text-transform: uppercase;	
 }
 
 /*** set the font size to be smaller than the name + add margin top ***/
