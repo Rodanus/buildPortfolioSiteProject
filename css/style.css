@@ -95,6 +95,12 @@ header, #background {
 	color: #000000c4;
 }
 
+/*** allow each item to wrap to the next line ***/
+#items-flex-con {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 /*** give each item a background and add display: flex to make its content 
 appear next to each other ***/
 .item {
