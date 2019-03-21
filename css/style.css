@@ -84,6 +84,7 @@ header, #background {
 	background: url(../images/bk1-500.jpg) no-repeat;
 	background-size: cover;
 	height: 200px;
+	transition: .5s ease;
 }
 
 /*** make the featuerd content size big and center it ***/
@@ -165,3 +166,112 @@ footer {
 	text-decoration: none;
 	color: #fefed9ed;
 }
+
+/*** Responsive design time!!!! Finally and for the first time making a responsive design! ***/
+@media screen and (min-width: 420px) {
+	#background {
+		background: url(../images/bk1-700.jpg) no-repeat;
+		background-size: cover;
+		height: 240px;
+	}
+}
+
+/*** change the background img and increase teh height ***/
+@media screen and (min-width: 520px) {
+	#background {
+		background: url(../images/bk1-900.jpg) no-repeat;
+		background-size: cover;
+		height: 280px;
+	}
+}
+
+/*** change the background img and increase teh height ***/
+@media screen and (min-width: 620px) {
+	#background {
+		background: url(../images/bk1-900.jpg) no-repeat;
+		background-size: cover;
+		height: 320px;
+	}
+}
+
+/*** change the background img and increase teh height ***/
+@media screen and (min-width: 720px) {
+	#background {
+		background: url(../images/bk1-1100.jpg) no-repeat;
+		background-size: cover;
+		height: 360px;
+	}
+}
+
+/*** change the background img and increase teh height ***/
+@media screen and (min-width: 820px) {
+	#background {
+		background: url(../images/bk1-1100.jpg) no-repeat;
+		background-size: cover;
+		height: 400px;
+	}
+}
+
+/*** change the background img and increase teh height ***/
+@media screen and (min-width: 920px) {
+	#background {
+		background: url(../images/bk1-1300.jpg) no-repeat;
+		background-size: cover;
+		height: 440px;
+	}
+}
+
+/*** change the background img and increase teh height ***/
+@media screen and (min-width: 1020px) {
+	#background {
+		background: url(../images/bk1-1300.jpg) no-repeat;
+		background-size: cover;
+		height: 480px;
+	}
+}
+
+/*** change the background img and increase teh height ***/
+@media screen and (min-width: 1120px) {
+	#background {
+		background: url(../images/bk1-1500.jpg) no-repeat;
+		background-size: cover;
+		height: 520px;
+	}
+}
+
+/*** change the background img and increase teh height ***/
+@media screen and (min-width: 1220px) {
+	#background {
+		background: url(../images/bk1-1500.jpg) no-repeat;
+		background-size: cover;
+		height: 560px;
+	}
+}
+
+/*** change the background img and increase teh height ***/
+@media screen and (min-width: 1320px) {
+	#background {
+		background: url(../images/bk1-1500.jpg) no-repeat;
+		background-size: cover;
+		height: 600px;
+	}
+}
+
+/*** change the background img and increase teh height ***/
+@media screen and (min-width: 1420px) {
+	#background {
+		background: url(../images/bk1-1700.jpg) no-repeat;
+		background-size: cover;
+		height: 640px;
+	}
+}
+
+/*** change the background img and increase teh height ***/
+@media screen and (min-width: 1800px) {
+	#background {
+		background: url(../images/bk1-2000.jpg) no-repeat;
+		background-size: cover;
+		height: 850px;
+	}
+}
+
