@@ -84,3 +84,12 @@ header, #background {
 	background-size: cover;
 	height: 200px;
 }
+
+/*** make the featuerd content size big and center it ***/
+#featured-content {
+	font-size: 1.4rem;
+	text-align: center;
+	margin-top: 35px;
+	text-transform: capitalize;
+	color: #000000c4;
+}
