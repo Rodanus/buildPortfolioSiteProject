@@ -145,3 +145,23 @@ appear next to each other ***/
 .item-text-con {
  margin-right: 2px; 
 }
+
+/*** footer ***/
+footer {
+	background-color: #02b3e4;
+	height: 50px;
+	text-align: center;
+}
+
+/*** center the text in the middle ***/
+#footer-text {
+	margin: 0;
+	padding: 13px;
+	font-size: 0.9rem;
+}
+
+/*** facebook ilnk ***/
+#fb-link {
+	text-decoration: none;
+	color: #fefed9ed;
+}
