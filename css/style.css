@@ -111,6 +111,7 @@ appear next to each other ***/
 	align-items: center;
 	border-radius: 14px;
 	width: 100%;
+	transition: .5s ease-out;
 }
 
 /*** each div takes 50% of the width ***/
@@ -200,6 +201,17 @@ footer {
 		background: url(../images/bk1-1100.jpg) no-repeat;
 		background-size: cover;
 		height: 360px;
+	}
+}
+
+/*** tablets and above ***/
+@media screen and (min-width: 600px) {
+	.item:nth-child(odd) {
+		margin-right: 10px;
+	}
+	.item {
+		width: calc((100% - 10px) / 2);
+		margin-bottom: 14px;
 	}
 }
 
