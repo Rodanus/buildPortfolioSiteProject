@@ -81,7 +81,7 @@ header, #background {
 
 /*** add a picture as a background to the first section and set size to cover, also specify the height***/
 #background {
-	background: url(../images/bk.jpg) no-repeat;
+	background: url(../images/bk1-500.jpg) no-repeat;
 	background-size: cover;
 	height: 200px;
 }
