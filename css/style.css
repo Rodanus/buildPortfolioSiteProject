@@ -90,7 +90,52 @@ header, #background {
 #featured-content {
 	font-size: 1.4rem;
 	text-align: center;
-	margin-top: 35px;
+	margin: 35px 0;
 	text-transform: capitalize;
 	color: #000000c4;
+}
+
+/*** give each item a background and add display: flex to make its content 
+appear next to each other ***/
+.item {
+	display: flex;
+	background: #02b3e4;
+	margin-bottom: 10px;
+	align-items: center;
+	border-radius: 14px;
+	width: 100%;
+}
+
+/*** each div takes 50% of the width ***/
+.item-text-con, .img-container {
+	width: 50%;
+}
+
+/*** add some margin to image's container ***/
+.img-container {
+	margin: 8px 15px 8px 8px;
+} 
+
+/*** change the image corners to be rounded corners also make it display as block to remove the space beneath it ***/
+.item-img {
+	border-radius: 14px;
+	display: block;
+}
+
+/*** set the size and add some space between the name and description ***/
+.item-name {
+	margin: 0 0 5px;
+	font-size: 1.3rem;
+	text-transform: capitalize;
+}
+
+/*** description text size ***/
+.item-description {
+	margin: 0;
+	font-size: 0.7rem;
+}
+
+/*** add some space between to the right of text container and its container ***/
+.item-text-con {
+ margin-right: 2px; 
 }
