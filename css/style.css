@@ -3,7 +3,7 @@ html, body, header, main, footer {
 	width: 100%;
 }
 
-/*** Make sure that the contents width won't be more than the specified width byt setting the box-sizing: border-box; ***/
+/*** Make sure that the contents width won't be more than the specified width by setting the box-sizing: border-box; ***/
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
