@@ -89,7 +89,7 @@ header, #background {
 
 /*** make the featuerd content size big and center it ***/
 #featured-work {
-	font-size: 1.4rem;
+	font-size: 1.5rem;
 	text-align: center;
 	margin: 45px 0 30px;
 	text-transform: capitalize;
@@ -168,6 +168,13 @@ footer {
 	color: #fefed9ed;
 }
 
+/*** make the text bigger ***/
+@media screen and (min-width: 414px) {
+	html {
+		font-size: 18px;
+	}
+}
+
 /*** Responsive design time!!!! Finally and for the first time making a responsive design! ***/
 @media screen and (min-width: 420px) {
 	#background {
@@ -201,6 +208,13 @@ footer {
 		background: url(../images/bk1-1100.jpg) no-repeat;
 		background-size: cover;
 		height: 360px;
+	}
+}
+
+/*** make the text bigger ***/
+@media screen and (min-width: 768px) {
+	html {
+		font-size: 19px;
 	}
 }
 
@@ -245,7 +259,7 @@ footer {
 	}
 }
 
-
+/*** laptops and on ***/
 @media screen and (min-width: 1024px) {
 	.item:nth-child(2) {
 		margin-right: 10px;
@@ -263,6 +277,10 @@ footer {
 	.item {
 		width: calc((100% - 20px) / 3);
 		margin-bottom: 14px;
+	}
+
+	html {
+		font-size: 20px;
 	}
 }
 
@@ -317,4 +335,3 @@ footer {
 		height: 850px;
 	}
 }
-
