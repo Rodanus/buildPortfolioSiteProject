@@ -213,6 +213,9 @@ footer {
 		width: calc((100% - 10px) / 2);
 		margin-bottom: 14px;
 	}
+	footer {
+		margin-top: 16px;
+	}
 }
 
 /*** change the background img and increase teh height ***/
