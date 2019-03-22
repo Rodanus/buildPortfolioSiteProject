@@ -284,6 +284,13 @@ footer {
 	}
 }
 
+/*** set the width on 1280px so it stays in the middle on large screens ***/
+@media screen and (min-width: 1280px) {
+	.container {
+		width: 1280px;
+	}
+}
+
 /*** change the background img and increase teh height ***/
 @media screen and (min-width: 1320px) {
 	#background {
